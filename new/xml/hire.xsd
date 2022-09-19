@@ -1,0 +1,55 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Hire">
+                    <xs:complexType>
+                                        <xs:sequence>
+                                                            <xs:element name="requirement">
+                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                                        <xs:element name="designation" type="xs:string"/>
+                                                                                                                        <xs:element name="qualification" type="xs:string"/>
+                                                                                                                        <xs:element name="experience" type="xs:string"/>
+                                                                                                                        <xs:element name="skills" type="xs:string"/>
+                                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+
+                                                            </xs:element>
+                                                            <xs:element name="userdetails">
+                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                                        <xs:element name="name" type="xs:string"/>
+                                                                                                                        <xs:element name="address" type="xs:string"/>
+                                                                                                                        <xs:element name="qualification">
+                                                                                                                                            <xs:complexType>
+                                                                                                                                                                <xs:sequence>
+                                                                                                                                                                                    <xs:element name="twelth" type="xs:string"/>  
+                                                                                                                                                                                    <xs:element name="ug" type="xs:string"/>       
+                                                                                                                                                                                    <xs:element name="pg" type="xs:string"/>  
+                                                                                                                                                                                        
+                                                                                                                                                                </xs:sequence>
+                                                                                                                                            </xs:complexType>
+                                                                                                                        </xs:element>
+                                                                                                                        <xs:element name="expirience">
+                                                                                                                                            <xs:complexType>
+                                                                                                                                                                <xs:sequence>
+                                                                                                                                                                                    <xs:element name="years" type="xs:string"/>
+                                                                                                                                                                                    <xs:element name="technology" type="xs:string"/>
+                                                                                                                                                                </xs:sequence>
+                                                                                                                                            </xs:complexType>
+                                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                    
+                                                                                </xs:complexType>
+
+                                                            </xs:element>
+                                                            <xs:element name="makeoffer">
+                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                                        <xs:element name="salary" type="xs:int"/>
+                                                                                                                        <xs:element name="designation" type="xs:string"/>
+                                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+                                                            </xs:element>
+                                        </xs:sequence>
+                    </xs:complexType>
+</xs:element>
+</xs:schema>

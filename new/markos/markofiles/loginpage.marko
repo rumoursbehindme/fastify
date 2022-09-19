@@ -1,0 +1,9 @@
+<head><title>Login Page</title></head>
+<h1>Login using anyone of these</h1>
+<a href=`/myapp?return_url=${input.return_url}`>
+My app login
+</a>   
+<br>    
+<br>
+<a href=`https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&client_id=${input.client_id}&scope=openid%20email profile&response_type=code&redirect_uri=${input.redirect_uri}&nonce=${input.nonce}&state=${input.state}&code_challenge=${input.code_challenge}&code_challenge_method=S256`>Google Login</a>
+                  

@@ -1,0 +1,25 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/formbody": "^7.2.0",
+    "@marko/compiler": "^5.22.6",
+    "@marko/fastify": "^1.1.1",
+    "@marko/serve": "^4.2.5",
+    "@types/node": "^18.7.18",
+    "base64url": "^3.0.1",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "jwt-decode": "^3.1.2",
+    "marko": "^5.21.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}

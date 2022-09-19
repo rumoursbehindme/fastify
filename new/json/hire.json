@@ -1,0 +1,29 @@
+{
+ "hire":[{
+                    "requirement":{
+                                        "designation":"",
+                                        "qualification":"",
+                                        "experience":"",
+                                        "skills":""
+                    }
+
+ },
+ {
+                    "userdetails":{
+                                        "name":"",
+                                        "address":"",
+                                        "qualification":{"twelth":"","ug":"","pg":""},
+                                        "experience":{"years":"","technology":""},
+                                        "skills":""
+                    }
+
+ },
+ {
+                    "makeoffer":{
+                                        "salary":30000,
+                                        "designation":""
+                    }
+ }
+ ]
+ 
+}

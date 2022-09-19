@@ -1,0 +1,34 @@
+{
+                    "title":"hire",
+                    "type":"array",
+                    "items":[{"requirement":{"type":"object",
+                                                            "properties":{
+                                                                                "designation":{"type":"string"},
+                                                                                "qualification":{"type":"string"},
+                                                                                "experience":{"type":"string"},
+                                                                                "skills":{"type":"string"}
+                                                            }
+                                        }
+                    },
+                                        
+                                       { "useerdetails":{
+                                                            "type":"object",
+                                                            "properties":{
+                                                                                "name":{"type":"string"},
+                                                                                "address":{"type":"string"},
+                                                                                "qualification":{"type":"object","properties":{"twelth":{"type":"string"},"ug":{"type":"string"},"pg":{"type":"string"}}},
+                                                                                
+                                                                                
+                                                                                "experience":{"type":"object","properties":{"years":{"type":"string"},"technology":{"type":"string"}}},
+                                                                                "skills":{"type":"string"  }       
+                                                            }
+                                        }},{
+                                        "makeoffer":{
+                                        "type":"object",
+                                        "properties":{
+                                                            "salary":{"type":"number"},
+                                                            "designation":{"type":"string"}
+                                        }
+                    }}]
+}
+                   
